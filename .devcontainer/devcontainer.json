@@ -1,0 +1,10 @@
+{
+  "name": "Java 17-security1000",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "GRADLE_VERSION": "8.5",
+      "SPRING_VERSION": "3.2.1"
+    },
+  }
+}

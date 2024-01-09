@@ -1,0 +1,3 @@
+rootProject.name = 'security'
+include 'auth-service'
+include 'user-service'

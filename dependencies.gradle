@@ -1,0 +1,21 @@
+ext {
+    versions = [
+            springBoot: "3.2.1",
+            postgreSql: "42.6.0",
+            lombok    : "1.18.26",
+            jwt       : "4.4.0"
+
+    ]
+
+    libs = [
+            springBootWeb       : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
+            springBootJpa       : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            postgreSql          : "org.postgresql:postgresql:${versions.postgreSql}",
+            mongoDB             : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
+            rabbitMQ            : "org.springframework.boot:spring-boot-starter-amqp:${versions.springBoot}",
+            springBootValidation: "org.springframework.boot:spring-boot-starter-validation:${versions.springBoot}",
+            lombok              : "org.projectlombok:lombok:${versions.lombok}",
+            springBootSecurity  : "org.springframework.boot:spring-boot-starter-security:${versions.springBoot}",
+            jwt                 : "com.auth0:java-jwt:${versions.jwt}"
+    ]
+}

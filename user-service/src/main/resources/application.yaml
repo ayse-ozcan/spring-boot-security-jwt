@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: securityExample
+      username: ${MONGO_USERNAME}
+      password: ${MONGO_PASS}
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ${RABBITMQ_USERNAME}
+    password: ${RABBITMQ_PASS}
