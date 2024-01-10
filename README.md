@@ -2,7 +2,7 @@
 
 This project focuses on implementing JSON Web Token (JWT) authentication and authorization for securing web services.
 
-👉 [For more information, you can check out my blog post.]()
+👉 [For more information, you can check out my blog post.](https://ayseozcan.com/2024/01/10/authentication-and-authorization-with-spring-security-jwt/)
 
 ### Pre-requisites
 
